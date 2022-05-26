@@ -1,0 +1,39 @@
+*{
+    margin: 0;    
+    box-sizing: border-box;   
+    place-items: center;
+    
+}
+body{
+     background: url(numeros.jpg);
+     background-position: center;
+    min-height: 100vh;
+    display: grid   
+}
+div{
+    background-color: #5d6d88;
+    border: 8px solid #1F304D;
+    text-align: center;
+    padding: 60px;
+    border-radius: 35px;
+    
+}
+
+
+button{
+    color: gray;
+    background-color: #0e1624;
+    border-radius: 10px;
+    
+
+}
+button:hover{
+     box-shadow: 2px 2px 2px #2d3d55; 
+    
+    
+}
+p{
+    color: #0e1624;
+    font-size: 60px;
+
+}

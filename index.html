@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <div>
+    <p>0</p>  
+    <button onclick="somar()"> somar </button>
+    <button onclick="subtrai()"> subtrair</button>  
+    <button onclick="zerar()"> zerar </button>
+   </div>
+   
+   <script>
+
+       let numero = 0
+      
+    function somar(){
+    numero = numero + 1
+    mostrar()
+    }
+    function subtrai(){
+    numero = numero - 1
+    mostrar()
+    }
+    function zerar(){
+    numero = 0
+    mostrar ()
+    }
+
+    function mostrar(){
+    const p = document.querySelector("p") 
+    p.innerText=numero
+    }
+
+   </script>
+</body>
+</html>
